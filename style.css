@@ -7,7 +7,7 @@
 
 #section-one {
     background-color: #1F2937;
-    height: 85vh;
+    height: 65vh;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -35,8 +35,20 @@ nav a {
     justify-content: space-around;
 }
 
+#img {
+    background-image: url("./img/me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 section {
-    width: 600px;
+    width: 400px;
     height: 300px;
     border: 1px solid #FFF;
     font-size: 48px;
@@ -118,5 +130,15 @@ button {
     -o-border-radius: 10px;
 }
 
-#secion-five {
+#section-five {
+    height: 80px;
+    background-color: #1F2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-five p {
+    font-size: 22px;
 }
