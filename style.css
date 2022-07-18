@@ -5,4 +5,22 @@
     font-family: ;
 }
 
-#
+#section-one {
+    background-color: #1F2937;
+    height: 85vh;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 18px;
+}
