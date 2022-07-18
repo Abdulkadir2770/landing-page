@@ -99,3 +99,24 @@ button {
     width: 60%;
     font-size: 30px;
 }
+
+#section-four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue {
+    width: 80%;
+    height: 150px;
+    background-color: #1e9ad3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#secion-five {
+}
