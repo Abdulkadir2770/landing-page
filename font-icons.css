@@ -1,6 +1,6 @@
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width: 50px;
     text-align: center;
@@ -10,6 +10,7 @@
     -moz-border-radius: 40%;
     -ms-border-radius: 40%;
     -o-border-radius: 40%;
+    margin: 10px;
 }
   
   /* Add a hover effect if you want */
@@ -32,6 +33,6 @@
   }
 
   .fa-github {
-    background: red;
-    color: white;
+    background: #FFF;
+    color: #000;
   }
