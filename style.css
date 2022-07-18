@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 40px;
+    height: 10px;
 }
 
 nav a {
@@ -40,10 +40,11 @@ section {
     height: 300px;
     border: 1px solid #FFF;
     font-size: 48px;
+    text-align: center;
 }
 
-#hero p{
-    font-size: 18px #E5E7EB;
+p{
+    font-size: 18px;
 }
 
 button {
@@ -58,7 +59,43 @@ button {
     cursor: pointer;
 }
 
+/*section two*/
 #section-two {
     height: 400px;
-    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    height: 50px;
+    border: 4px solid #1e9ad3;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/*section three*/
+#section-three {
+    height: 350px;
+    background-color: #eeebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-three p {
+    width: 60%;
+    font-size: 30px;
 }
