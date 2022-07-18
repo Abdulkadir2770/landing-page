@@ -9,6 +9,9 @@
     background-color: #1F2937;
     height: 85vh;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* navbar section*/
@@ -16,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
+    height: 40px;
 }
 
 nav a {
@@ -29,15 +32,33 @@ nav a {
 /*Hero section*/
 #hero {
     display: flex;
+    justify-content: space-around;
 }
 
 section {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     border: 1px solid #FFF;
     font-size: 48px;
 }
 
-section p {
+#hero p{
     font-size: 18px #E5E7EB;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+#section-two {
+    height: 400px;
+    border: 1px solid #000;
 }
