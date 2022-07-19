@@ -103,13 +103,19 @@ button {
     height: 350px;
     background-color: #eeebeb;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 #section-three p {
     width: 60%;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+#section-three ul li {
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 #section-four {
